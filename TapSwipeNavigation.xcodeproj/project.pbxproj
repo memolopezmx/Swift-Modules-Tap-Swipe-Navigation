@@ -12,9 +12,14 @@
 		3C99A7ED1EB9383E0061A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C99A7EB1EB9383E0061A960 /* Main.storyboard */; };
 		3C99A7EF1EB9383E0061A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C99A7EE1EB9383E0061A960 /* Assets.xcassets */; };
 		3C99A7F21EB9383E0061A960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C99A7F01EB9383E0061A960 /* LaunchScreen.storyboard */; };
+		3C99A7FA1EB942190061A960 /* UnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99A7F91EB942190061A960 /* UnoViewController.swift */; };
+		3C99A7FC1EB9422F0061A960 /* DosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99A7FB1EB9422F0061A960 /* DosViewController.swift */; };
+		3C99A7FE1EB942450061A960 /* TresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99A7FD1EB942450061A960 /* TresViewController.swift */; };
+		DB3B365661C0E371CA520582 /* Pods_TapSwipeNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDAB00DA87F683512453511 /* Pods_TapSwipeNavigation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C7CF66886800C6428E5FD79 /* Pods-TapSwipeNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwipeNavigation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapSwipeNavigation/Pods-TapSwipeNavigation.release.xcconfig"; sourceTree = "<group>"; };
 		3C99A7E41EB9383E0061A960 /* TapSwipeNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapSwipeNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C99A7E71EB9383E0061A960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C99A7E91EB9383E0061A960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		3C99A7EE1EB9383E0061A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C99A7F11EB9383E0061A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C99A7F31EB9383E0061A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C99A7F91EB942190061A960 /* UnoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnoViewController.swift; sourceTree = "<group>"; };
+		3C99A7FB1EB9422F0061A960 /* DosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DosViewController.swift; sourceTree = "<group>"; };
+		3C99A7FD1EB942450061A960 /* TresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TresViewController.swift; sourceTree = "<group>"; };
+		D4C64643AC9D49BEF065BCEF /* Pods-TapSwipeNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwipeNavigation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapSwipeNavigation/Pods-TapSwipeNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDAB00DA87F683512453511 /* Pods_TapSwipeNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapSwipeNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3B365661C0E371CA520582 /* Pods_TapSwipeNavigation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				3C99A7E61EB9383E0061A960 /* TapSwipeNavigation */,
 				3C99A7E51EB9383E0061A960 /* Products */,
+				E8C1E2EC91E33ECB10A39204 /* Pods */,
+				8B74886BA8BEDD1D7CA8DE36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +70,31 @@
 				3C99A7E71EB9383E0061A960 /* AppDelegate.swift */,
 				3C99A7E91EB9383E0061A960 /* ViewController.swift */,
 				3C99A7EB1EB9383E0061A960 /* Main.storyboard */,
+				3C99A7F91EB942190061A960 /* UnoViewController.swift */,
+				3C99A7FB1EB9422F0061A960 /* DosViewController.swift */,
+				3C99A7FD1EB942450061A960 /* TresViewController.swift */,
 				3C99A7EE1EB9383E0061A960 /* Assets.xcassets */,
 				3C99A7F01EB9383E0061A960 /* LaunchScreen.storyboard */,
 				3C99A7F31EB9383E0061A960 /* Info.plist */,
 			);
 			path = TapSwipeNavigation;
+			sourceTree = "<group>";
+		};
+		8B74886BA8BEDD1D7CA8DE36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAB00DA87F683512453511 /* Pods_TapSwipeNavigation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C1E2EC91E33ECB10A39204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4C64643AC9D49BEF065BCEF /* Pods-TapSwipeNavigation.debug.xcconfig */,
+				1C7CF66886800C6428E5FD79 /* Pods-TapSwipeNavigation.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C99A7F61EB9383E0061A960 /* Build configuration list for PBXNativeTarget "TapSwipeNavigation" */;
 			buildPhases = (
+				6980A3F1B9A4E08C364A60C8 /* [CP] Check Pods Manifest.lock */,
 				3C99A7E01EB9383E0061A960 /* Sources */,
 				3C99A7E11EB9383E0061A960 /* Frameworks */,
 				3C99A7E21EB9383E0061A960 /* Resources */,
+				87BF9AF8B91644943D1A0FEB /* [CP] Embed Pods Frameworks */,
+				EF75101FF1886C0480D30C64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +168,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6980A3F1B9A4E08C364A60C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87BF9AF8B91644943D1A0FEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapSwipeNavigation/Pods-TapSwipeNavigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF75101FF1886C0480D30C64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapSwipeNavigation/Pods-TapSwipeNavigation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C99A7E01EB9383E0061A960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +223,9 @@
 			files = (
 				3C99A7EA1EB9383E0061A960 /* ViewController.swift in Sources */,
 				3C99A7E81EB9383E0061A960 /* AppDelegate.swift in Sources */,
+				3C99A7FE1EB942450061A960 /* TresViewController.swift in Sources */,
+				3C99A7FA1EB942190061A960 /* UnoViewController.swift in Sources */,
+				3C99A7FC1EB9422F0061A960 /* DosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +348,7 @@
 		};
 		3C99A7F71EB9383E0061A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C64643AC9D49BEF065BCEF /* Pods-TapSwipeNavigation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MC2W678MVZ;
@@ -274,6 +362,7 @@
 		};
 		3C99A7F81EB9383E0061A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7CF66886800C6428E5FD79 /* Pods-TapSwipeNavigation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MC2W678MVZ;
@@ -304,6 +393,7 @@
 				3C99A7F81EB9383E0061A960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

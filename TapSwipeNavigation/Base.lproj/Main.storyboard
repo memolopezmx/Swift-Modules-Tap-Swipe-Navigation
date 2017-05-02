@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,21 +21,105 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWc-6g-3BL">
-                                <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="100" y="91"/>
+        </scene>
+        <!--Uno View Controller-->
+        <scene sceneID="Nsl-so-nh6">
+            <objects>
+                <viewController storyboardIdentifier="UnoViewController" id="RqG-LG-tIj" customClass="UnoViewController" customModule="TapSwipeNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NYd-Lr-kbm"/>
+                        <viewControllerLayoutGuide type="bottom" id="PIN-Du-6kY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B9z-vg-1Cw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UnoViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ii-59-pM6">
+                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0ii-59-pM6" firstAttribute="centerY" secondItem="B9z-vg-1Cw" secondAttribute="centerY" id="Qbc-gg-CHD"/>
+                            <constraint firstItem="0ii-59-pM6" firstAttribute="leading" secondItem="B9z-vg-1Cw" secondAttribute="leadingMargin" id="naS-mF-BEc"/>
+                            <constraint firstItem="0ii-59-pM6" firstAttribute="trailing" secondItem="B9z-vg-1Cw" secondAttribute="trailingMargin" id="qgx-XU-ePK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emO-Hm-9zJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767.20000000000005" y="96.7016491754123"/>
+        </scene>
+        <!--Dos View Controller-->
+        <scene sceneID="JAE-kV-Gfx">
+            <objects>
+                <viewController storyboardIdentifier="DosViewController" id="Fl4-Az-C93" customClass="DosViewController" customModule="TapSwipeNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3gs-O7-dbF"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Yr-Zz-BIA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GVh-pE-Osk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DosViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5n-V1-1gb">
+                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c5n-V1-1gb" firstAttribute="centerY" secondItem="GVh-pE-Osk" secondAttribute="centerY" id="Aok-lE-8UP"/>
+                            <constraint firstItem="c5n-V1-1gb" firstAttribute="leading" secondItem="GVh-pE-Osk" secondAttribute="leadingMargin" id="TLh-S9-vK4"/>
+                            <constraint firstItem="c5n-V1-1gb" firstAttribute="trailing" secondItem="GVh-pE-Osk" secondAttribute="trailingMargin" id="rkg-Nf-gMi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skw-Td-IMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1444" y="94.902548725637189"/>
+        </scene>
+        <!--Tres View Controller-->
+        <scene sceneID="lkM-mH-0eX">
+            <objects>
+                <viewController storyboardIdentifier="TresViewController" id="Nd6-VG-Vcx" customClass="TresViewController" customModule="TapSwipeNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O7f-Bl-8OH"/>
+                        <viewControllerLayoutGuide type="bottom" id="LXf-1X-ogm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u78-Jr-PQw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TresViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tth-vk-dGb">
+                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tth-vk-dGb" firstAttribute="centerY" secondItem="u78-Jr-PQw" secondAttribute="centerY" id="SGd-oR-OgX"/>
+                            <constraint firstItem="tth-vk-dGb" firstAttribute="trailing" secondItem="u78-Jr-PQw" secondAttribute="trailingMargin" id="Tnw-Tf-mTT"/>
+                            <constraint firstItem="tth-vk-dGb" firstAttribute="leading" secondItem="u78-Jr-PQw" secondAttribute="leadingMargin" id="mms-h7-w83"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1a5-A2-vGI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2125.5999999999999" y="96.7016491754123"/>
         </scene>
     </scenes>
 </document>

@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045F3C1888DDE2D28D0266DC81E37196 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C281735F5EF60B8385434BFB3A159 /* CarbonSwipeRefresh.m */; };
+		0EF83262CD766C3C0B8B3727481F5DF8 /* CarbonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B618A42DD8A1B91BE5FF1B85B3CC95 /* CarbonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B0D4DCF1788FCECCBB333F3A1A49394 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5893E8D2CB8102CA2606ABA8D8F31009 /* CarbonTabSwipeNavigation.m */; };
+		1EADF9806A88919744E66993C412505E /* CarbonTabSwipeSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC27F5F777D562F9F99FE11DDE765E5 /* CarbonTabSwipeSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24769572427342ABEB8E04570F8F0F48 /* Pods-TapSwipeNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ABE698914093DFBC3E78E59DD914AC /* Pods-TapSwipeNavigation-dummy.m */; };
+		3D1D3CDB82515F0B0D062506A28F70B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		3F4E8385CF60CE225B9799C878FDFFC0 /* Pods-TapSwipeNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4CE395BE7C17BD6320118037CB457F /* Pods-TapSwipeNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFE136A1CE6F600769EFA298F74137E /* CarbonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D26245AA910D3000F9D47FF879085FA /* CarbonKit-dummy.m */; };
+		64955BEA22805328D5805CB9F4E801F5 /* CarbonTabSwipeNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A08BBF18647987CB94661675B7FABBE /* CarbonTabSwipeNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741A3EFB462E0E53D06C0EA1B2929BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		99FBDAD19C67129DCCF4B819CF852C8E /* CarbonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE5B00FAD563131596C149EF80DDD99 /* CarbonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B324B5ADE7BC072BF9827418BDA5D58D /* CarbonTabSwipeScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EDCEFBBBF6FFDEDBF7B278B7D7538B /* CarbonTabSwipeScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C035141BE361CC778F7A8A12AC141E56 /* CarbonSwipeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 491EDDC41300C2E728AE09C164EC5B2C /* CarbonSwipeRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C58ADC57962868077B8C38AF5E67A82F /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB571957CD40FF6C42A88CA9A211B8 /* CarbonTabSwipeSegmentedControl.m */; };
+		D31655A7CF5B7656B13F1667C53D00AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		DA8CE2125946FBAD87EB5576CD0C1FDA /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A3F2E8047EF0FCE57A37800C8EEE6 /* CarbonTabSwipeScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3ED13F94680977A94CE58E45635381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352F3CCD20CDBC5C9822654BDACCE6D0;
+			remoteInfo = CarbonKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026C281735F5EF60B8385434BFB3A159 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonSwipeRefresh.m; path = CarbonKit/CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		064682976D7405CF5D13E28C1B7BE373 /* CarbonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarbonKit.xcconfig; sourceTree = "<group>"; };
+		08CFAA38DDB6A003AC8F3EE828DDC9D1 /* CarbonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarbonKit.framework; path = CarbonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		113558A1E24E540445102C8461B6FCC3 /* Pods_TapSwipeNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TapSwipeNavigation.framework; path = "Pods-TapSwipeNavigation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB4618A01F615F34D9F3656E807560A /* Pods-TapSwipeNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapSwipeNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		21179691548223C8ABF58EB433930669 /* Pods-TapSwipeNavigation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapSwipeNavigation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		491EDDC41300C2E728AE09C164EC5B2C /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonSwipeRefresh.h; path = CarbonKit/CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		5893E8D2CB8102CA2606ABA8D8F31009 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeNavigation.m; path = CarbonKit/CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64019858EC71A0832E82BC6439814DFB /* Pods-TapSwipeNavigation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapSwipeNavigation-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D26245AA910D3000F9D47FF879085FA /* CarbonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarbonKit-dummy.m"; sourceTree = "<group>"; };
+		79A636E0AEE45676A70D178BE929C9F9 /* Pods-TapSwipeNavigation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapSwipeNavigation-resources.sh"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82AA872C02FE1C223CC7E4D052F41060 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A08BBF18647987CB94661675B7FABBE /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeNavigation.h; path = CarbonKit/CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		8FC27F5F777D562F9F99FE11DDE765E5 /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeSegmentedControl.h; path = CarbonKit/CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96821F91B05406E8985B56D3DA259D96 /* CarbonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-prefix.pch"; sourceTree = "<group>"; };
+		9B4CE395BE7C17BD6320118037CB457F /* Pods-TapSwipeNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapSwipeNavigation-umbrella.h"; sourceTree = "<group>"; };
+		A7013D318BDD16EFD8AAFCB4E4C75792 /* CarbonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CarbonKit.modulemap; sourceTree = "<group>"; };
+		B9C33C78078C71DDA4E4F831108D2B03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE5B00FAD563131596C149EF80DDD99 /* CarbonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonKit.h; path = CarbonKit/CarbonKit.h; sourceTree = "<group>"; };
+		C0EDCEFBBBF6FFDEDBF7B278B7D7538B /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeScrollView.h; path = CarbonKit/CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		C2ABE698914093DFBC3E78E59DD914AC /* Pods-TapSwipeNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapSwipeNavigation-dummy.m"; sourceTree = "<group>"; };
+		C6B618A42DD8A1B91BE5FF1B85B3CC95 /* CarbonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-umbrella.h"; sourceTree = "<group>"; };
+		E76A3F2E8047EF0FCE57A37800C8EEE6 /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeScrollView.m; path = CarbonKit/CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		E95946EF3B8002381125BF1E1BA66DA9 /* Pods-TapSwipeNavigation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapSwipeNavigation-frameworks.sh"; sourceTree = "<group>"; };
+		F05DACB757E9B22BFD69270435F4A63E /* Pods-TapSwipeNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapSwipeNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		F1CA3605C7DF0B4F43D500A5D14C79EF /* Pods-TapSwipeNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TapSwipeNavigation.modulemap"; sourceTree = "<group>"; };
+		FAFB571957CD40FF6C42A88CA9A211B8 /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeSegmentedControl.m; path = CarbonKit/CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1293C437ED60FB489669418BEB39B9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31655A7CF5B7656B13F1667C53D00AD /* Foundation.framework in Frameworks */,
+				741A3EFB462E0E53D06C0EA1B2929BF6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD877B18384DB2374952E1365046DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1D3CDB82515F0B0D062506A28F70B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5763C8C94DFED187B22EDE17CEEDCAF0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB07A1B38E45585BC7A1DB930617A40 /* Pods-TapSwipeNavigation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FB07A1B38E45585BC7A1DB930617A40 /* Pods-TapSwipeNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				82AA872C02FE1C223CC7E4D052F41060 /* Info.plist */,
+				F1CA3605C7DF0B4F43D500A5D14C79EF /* Pods-TapSwipeNavigation.modulemap */,
+				21179691548223C8ABF58EB433930669 /* Pods-TapSwipeNavigation-acknowledgements.markdown */,
+				64019858EC71A0832E82BC6439814DFB /* Pods-TapSwipeNavigation-acknowledgements.plist */,
+				C2ABE698914093DFBC3E78E59DD914AC /* Pods-TapSwipeNavigation-dummy.m */,
+				E95946EF3B8002381125BF1E1BA66DA9 /* Pods-TapSwipeNavigation-frameworks.sh */,
+				79A636E0AEE45676A70D178BE929C9F9 /* Pods-TapSwipeNavigation-resources.sh */,
+				9B4CE395BE7C17BD6320118037CB457F /* Pods-TapSwipeNavigation-umbrella.h */,
+				1BB4618A01F615F34D9F3656E807560A /* Pods-TapSwipeNavigation.debug.xcconfig */,
+				F05DACB757E9B22BFD69270435F4A63E /* Pods-TapSwipeNavigation.release.xcconfig */,
+			);
+			name = "Pods-TapSwipeNavigation";
+			path = "Target Support Files/Pods-TapSwipeNavigation";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D4C2A81C621EA426B6BE5C4580166503 /* Pods */,
+				A078FD7113E8C1ECA3A8416062C57196 /* Products */,
+				5763C8C94DFED187B22EDE17CEEDCAF0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87B45AD654ED07C7E2F4F15BB644E29F /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBE5B00FAD563131596C149EF80DDD99 /* CarbonKit.h */,
+				491EDDC41300C2E728AE09C164EC5B2C /* CarbonSwipeRefresh.h */,
+				026C281735F5EF60B8385434BFB3A159 /* CarbonSwipeRefresh.m */,
+				8A08BBF18647987CB94661675B7FABBE /* CarbonTabSwipeNavigation.h */,
+				5893E8D2CB8102CA2606ABA8D8F31009 /* CarbonTabSwipeNavigation.m */,
+				C0EDCEFBBBF6FFDEDBF7B278B7D7538B /* CarbonTabSwipeScrollView.h */,
+				E76A3F2E8047EF0FCE57A37800C8EEE6 /* CarbonTabSwipeScrollView.m */,
+				8FC27F5F777D562F9F99FE11DDE765E5 /* CarbonTabSwipeSegmentedControl.h */,
+				FAFB571957CD40FF6C42A88CA9A211B8 /* CarbonTabSwipeSegmentedControl.m */,
+				DD387790DCB054E807CE2D2AB05DBACB /* Support Files */,
+			);
+			name = CarbonKit;
+			path = CarbonKit;
+			sourceTree = "<group>";
+		};
+		A078FD7113E8C1ECA3A8416062C57196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08CFAA38DDB6A003AC8F3EE828DDC9D1 /* CarbonKit.framework */,
+				113558A1E24E540445102C8461B6FCC3 /* Pods_TapSwipeNavigation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C2A81C621EA426B6BE5C4580166503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B45AD654ED07C7E2F4F15BB644E29F /* CarbonKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD387790DCB054E807CE2D2AB05DBACB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7013D318BDD16EFD8AAFCB4E4C75792 /* CarbonKit.modulemap */,
+				064682976D7405CF5D13E28C1B7BE373 /* CarbonKit.xcconfig */,
+				6D26245AA910D3000F9D47FF879085FA /* CarbonKit-dummy.m */,
+				96821F91B05406E8985B56D3DA259D96 /* CarbonKit-prefix.pch */,
+				C6B618A42DD8A1B91BE5FF1B85B3CC95 /* CarbonKit-umbrella.h */,
+				B9C33C78078C71DDA4E4F831108D2B03 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CarbonKit";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4ACC2C8EA0B133E68F268AD1FFB0B048 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4E8385CF60CE225B9799C878FDFFC0 /* Pods-TapSwipeNavigation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA184D5A11D52EFC2A2BC84878834BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF83262CD766C3C0B8B3727481F5DF8 /* CarbonKit-umbrella.h in Headers */,
+				99FBDAD19C67129DCCF4B819CF852C8E /* CarbonKit.h in Headers */,
+				C035141BE361CC778F7A8A12AC141E56 /* CarbonSwipeRefresh.h in Headers */,
+				64955BEA22805328D5805CB9F4E801F5 /* CarbonTabSwipeNavigation.h in Headers */,
+				B324B5ADE7BC072BF9827418BDA5D58D /* CarbonTabSwipeScrollView.h in Headers */,
+				1EADF9806A88919744E66993C412505E /* CarbonTabSwipeSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F4236B8CFFB8BA34B56BC3972999C1C /* Pods-TapSwipeNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412DC8B775BCE807F23E4897E737F6EE /* Build configuration list for PBXNativeTarget "Pods-TapSwipeNavigation" */;
+			buildPhases = (
+				B9D721410FE7EF5E3F1B3C67DF9B1FC8 /* Sources */,
+				FBD877B18384DB2374952E1365046DA4 /* Frameworks */,
+				4ACC2C8EA0B133E68F268AD1FFB0B048 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11A08832190DE71C884643BFAFF4902 /* PBXTargetDependency */,
+			);
+			name = "Pods-TapSwipeNavigation";
+			productName = "Pods-TapSwipeNavigation";
+			productReference = 113558A1E24E540445102C8461B6FCC3 /* Pods_TapSwipeNavigation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		352F3CCD20CDBC5C9822654BDACCE6D0 /* CarbonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6491274AC13664A2C5DDC36A60D5176 /* Build configuration list for PBXNativeTarget "CarbonKit" */;
+			buildPhases = (
+				F31B217E071034C33FEAC0FB0AF263B9 /* Sources */,
+				1293C437ED60FB489669418BEB39B9E3 /* Frameworks */,
+				BA184D5A11D52EFC2A2BC84878834BD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonKit;
+			productName = CarbonKit;
+			productReference = 08CFAA38DDB6A003AC8F3EE828DDC9D1 /* CarbonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A078FD7113E8C1ECA3A8416062C57196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				352F3CCD20CDBC5C9822654BDACCE6D0 /* CarbonKit */,
+				1F4236B8CFFB8BA34B56BC3972999C1C /* Pods-TapSwipeNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D721410FE7EF5E3F1B3C67DF9B1FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24769572427342ABEB8E04570F8F0F48 /* Pods-TapSwipeNavigation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31B217E071034C33FEAC0FB0AF263B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFE136A1CE6F600769EFA298F74137E /* CarbonKit-dummy.m in Sources */,
+				045F3C1888DDE2D28D0266DC81E37196 /* CarbonSwipeRefresh.m in Sources */,
+				1B0D4DCF1788FCECCBB333F3A1A49394 /* CarbonTabSwipeNavigation.m in Sources */,
+				DA8CE2125946FBAD87EB5576CD0C1FDA /* CarbonTabSwipeScrollView.m in Sources */,
+				C58ADC57962868077B8C38AF5E67A82F /* CarbonTabSwipeSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B11A08832190DE71C884643BFAFF4902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarbonKit;
+			target = 352F3CCD20CDBC5C9822654BDACCE6D0 /* CarbonKit */;
+			targetProxy = 0A3ED13F94680977A94CE58E45635381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4462AC0F119C267EB888C3A15A174F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064682976D7405CF5D13E28C1B7BE373 /* CarbonKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarbonKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CarbonKit/CarbonKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CarbonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65D127B9768F64096696A536FF98DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05DACB757E9B22BFD69270435F4A63E /* Pods-TapSwipeNavigation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TapSwipeNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapSwipeNavigation/Pods-TapSwipeNavigation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TapSwipeNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		713E3F33F86D95B76F7E13451251BA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064682976D7405CF5D13E28C1B7BE373 /* CarbonKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarbonKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CarbonKit/CarbonKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CarbonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D88A7B8CAC9FEF188EED6C034EF15963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB4618A01F615F34D9F3656E807560A /* Pods-TapSwipeNavigation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TapSwipeNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapSwipeNavigation/Pods-TapSwipeNavigation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TapSwipeNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412DC8B775BCE807F23E4897E737F6EE /* Build configuration list for PBXNativeTarget "Pods-TapSwipeNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88A7B8CAC9FEF188EED6C034EF15963 /* Debug */,
+				65D127B9768F64096696A536FF98DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6491274AC13664A2C5DDC36A60D5176 /* Build configuration list for PBXNativeTarget "CarbonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713E3F33F86D95B76F7E13451251BA1E /* Debug */,
+				4C4462AC0F119C267EB888C3A15A174F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
