@@ -13,7 +13,7 @@ La manera más eficiente de hacerlo es usando el siguiente pod:
 
 Como lo descripbe en su repositorio original: [CarbonKit](https://github.com/ermalkaleci/CarbonKit) es una librería para iOS "open source" que incluye potentes y atractivos componentes de interfaz de usuario.
 
-A continuación veremos un ejemplo de como implementarlo, anexamos la liga de esta librería al final del tutorial.
+A continuación veremos un ejemplo de como implementarlo.
 
 ## Observaciones Técnicas
 * Este proyecto se realizó usando Xcode 8.3.1
@@ -128,7 +128,7 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
 
 #### Paso 3
 
-Si quisieramos personalizar lo podriamos modificar nuestro código algo así:
+Si quisieramos personalizar lo podriamos modificar sus propiedades, nuestro código quedaría algo así:
 
 ```
 import UIKit
