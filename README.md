@@ -17,7 +17,7 @@ A continuación veremos un ejemplo de como implementarlo, anexamos la liga de es
 
 ## Implementación
 
-#### Paso 1
+### Paso 1
 
 Lo primero que hay que hacer es instalar el pod. Para eso basta hacer lo siguiente:
 
@@ -35,9 +35,7 @@ Lo primero que hay que hacer es instalar el pod. Para eso basta hacer lo siguien
 
 * Agregamos el siguiente protocolo: CarbonTabSwipeNavigationDelegate
 se vería algo así: 
-```class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
-	...
-	}```
+```class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {...} ```
 
 * Dentro del viewDidLoad agregamos lo siguiente:
 ```let items = ["UnoViewController", "DosViewController", "TresViewController"]
