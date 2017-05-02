@@ -42,8 +42,8 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {...}
 * Dentro del viewDidLoad agregamos lo siguiente:
 ```
 let items = ["UnoViewController", "DosViewController", "TresViewController"]
-        let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
-        carbonTabSwipeNavigation.insert(intoRootViewController: self)
+let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
+carbonTabSwipeNavigation.insert(intoRootViewController: self)
 ```
 
 * Posteriormente completamos el protocolo:
@@ -71,11 +71,11 @@ let items = ["UnoViewController", "DosViewController", "TresViewController"]
 
 Haremos esto con los otros dos Controlers.
 
-##### Nota:
+#### Nota:
 
 Puede que nos marque un circulo rojo, no hay ningun problema al correr el proyecto se quita.
 
-* Al final nuestro código se vería algo así:
+* Al final nuestro código se quedaría así:
 
 ```
 import UIKit
@@ -119,7 +119,7 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
 ```
 
 <p align="center">
-  <img src="https://github.com/ginppian/Swift-Modules-Tap-Swipe-Navigation/blob/master/video.gif" width="320" height="568" />
+  <img src="https://github.com/ginppian/Swift-Modules-Tap-Swipe-Navigation/blob/master/ejemplo1.png" width="320" height="568" />
 </p>
 
 
@@ -182,7 +182,6 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
             return self.storyboard!.instantiateViewController(withIdentifier: "UnoViewController") as! UnoViewController
         }
         
-        // return viewController at index
     }
     
     override func didReceiveMemoryWarning() {
@@ -195,7 +194,7 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
 ```
 
 <p align="center">
-  <img src="https://github.com/ginppian/Swift-Modules-Tap-Swipe-Navigation/blob/master/video.gif" width="320" height="568" />
+  <img src="https://github.com/ginppian/Swift-Modules-Tap-Swipe-Navigation/blob/master/ejemplo2.png" width="320" height="568" />
 </p>
 
 #### Fuente
