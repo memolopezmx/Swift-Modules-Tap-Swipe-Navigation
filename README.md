@@ -15,6 +15,9 @@ Como lo descripbe en su repositorio original: [CarbonKit](https://github.com/erm
 
 A continuación veremos un ejemplo de como implementarlo, anexamos la liga de esta librería al final del tutorial.
 
+## Observaciones Técnicas
+* Este proyecto se hizo usando Xcode 8.3.1
+
 ## Implementación
 
 ### Paso 1
