@@ -35,12 +35,16 @@ Lo primero que hay que hacer es instalar el pod. Para eso basta hacer lo siguien
 
 * Agregamos el siguiente protocolo: CarbonTabSwipeNavigationDelegate
 se vería algo así: 
-```class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {...} ```
+```
+class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {...} 
+```
 
 * Dentro del viewDidLoad agregamos lo siguiente:
-```let items = ["UnoViewController", "DosViewController", "TresViewController"]
+```
+let items = ["UnoViewController", "DosViewController", "TresViewController"]
         let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
-        carbonTabSwipeNavigation.insert(intoRootViewController: self)```
+        carbonTabSwipeNavigation.insert(intoRootViewController: self)
+```
 
 * Posteriormente completamos el protocolo:
 
